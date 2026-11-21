@@ -1,0 +1,6 @@
+# Show the styled error page for missing / forbidden URLs
+ErrorDocument 404 /vaccination-system/error.php
+ErrorDocument 403 /vaccination-system/error.php
+
+# Do not list folder contents
+Options -Indexes 
